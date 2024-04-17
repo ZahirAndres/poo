@@ -1,0 +1,30 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>80</x><y>140</y><w>250</w><h>90</h></coordinates><panel_attributes>bg=red
+fg=pink
+Lector
+--
+-scanner.Scanner
+--
++muestraMuestra(mensaje: String):void
+_+main(args[] String):void_
++leerEntrada():String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>240</y><w>250</w><h>230</h></coordinates><panel_attributes>bg=black
+ContadorCaracteres
+--
+
+--
++isVocal(caracter:char):boolean
++isVocalM(caracter:char):boolean
++isNumero(caracter:char):boolean
++isConsonante(caracter:char):boolean
++isConsonanteM(caracter:char):boolean
++isSimbolo(caracter:char):boolean
++CuentaVocales(palabra:String):int
++CuentaVocalesM(palabra:String):int
++CuentaConsonantes(palabra:String):int
++CuentaConsonantesM(palabra:String):int
++CuentaNumeros(palabra:String):int
++CuentaSimbolos(palabra:String):int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>210</y><w>250</w><h>60</h></coordinates><panel_attributes>bg=green
+Letras
+--
+--
+_+main(args[] String):void_
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>180</y><w>100</w><h>80</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;80;60</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>240</y><w>100</w><h>70</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;50;80;10</additional_attributes></element></diagram>
