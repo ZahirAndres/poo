@@ -1,0 +1,23 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>20</x><y>30</y><w>220</w><h>200</h></coordinates><panel_attributes>bg=pink
+Equipo
+--
+-nombre:String
+-ciudad:String
+-puntos:int
+--
+&lt;&lt;Constructor&gt;&gt; +Equipo(String, String, int)
+&lt;&lt;Constructor&gt;&gt; +Equipo(String, String)
+&lt;&lt;Constructor&gt;&gt; +Equipo(String)
++actualizar(String, int)
++actualizar(int)
++getNombre():String
++getCiudad():String
++getPuntos():int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>310</y><w>140</w><h>60</h></coordinates><panel_attributes>bg=red
+fg=white
+Sobrecarga
+--
+--
+_+main(String[]):void_
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>220</y><w>50</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+usa
+</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element></diagram>
