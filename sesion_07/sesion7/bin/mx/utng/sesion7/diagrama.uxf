@@ -1,0 +1,40 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>110</x><y>370</y><w>200</w><h>100</h></coordinates><panel_attributes>bg=green
+fg=black
+fontsize=15
+App
+--
+
+--
+_+main(args[]: String):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>100</y><w>410</w><h>100</h></coordinates><panel_attributes>bg=blue
+fg=black
+fontsize=14
+Lector
+--
+[privado/publico][Nombre][TipoAtributo]
+-scanner:Scanner
+--
+[publico/privado][NombreMetodo][DatosUsados][TipoDato]
++leeOpcion():byte
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>110</x><y>210</y><w>360</w><h>140</h></coordinates><panel_attributes>bg=blue
+fg=black
+fontsize=14
+ListasTareas
+--
+
+--
++crearNuevaLista():void
++verListaTareas():void
++verTareasDeLista():void
++actualizarListaTareas():void
++eliminarListaTareas():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>110</x><y>100</y><w>200</w><h>100</h></coordinates><panel_attributes>bg=green
+fg=black
+fontsize=15
+Menu
+--
+
+--
++muestraOpciones():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>70</x><y>320</y><w>60</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>40;10;10;30;40;60</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>190</y><w>290</w><h>220</h></coordinates><panel_attributes>lt=&lt;&lt;.
+</panel_attributes><additional_attributes>270;10;270;200;10;200</additional_attributes></element><element><id>Relation</id><coordinates><x>40</x><y>100</y><w>90</w><h>330</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>70;10;10;250;70;310</additional_attributes></element><element><id>UMLNote</id><coordinates><x>330</x><y>410</y><w>140</w><h>70</h></coordinates><panel_attributes>Note..
+bg=blue
+Usa las distintas instancias</panel_attributes><additional_attributes></additional_attributes></element></diagram>
