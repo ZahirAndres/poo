@@ -1,0 +1,27 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLInterface</id><coordinates><x>160</x><y>40</y><w>140</w><h>90</h></coordinates><panel_attributes>Logger
+--
++log(msg:String)void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>130</y><w>100</w><h>70</h></coordinates><panel_attributes>bg=blue
+ConsoleLogger
+--
+
+--
++log(String)void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>230</y><w>140</w><h>70</h></coordinates><panel_attributes>bg=orange
+LoggerTest
+--
+
+--
+_+main(arg String)void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>330</x><y>130</y><w>120</w><h>70</h></coordinates><panel_attributes>bg=blue
+FileLogger
+--
+
+--
++log(String )void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>40</y><w>340</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;.
+implementa</panel_attributes><additional_attributes>10;10;140;10;320;90</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>40</y><w>150</w><h>160</h></coordinates><panel_attributes>lt=&lt;..
+usa</panel_attributes><additional_attributes>130;20;10;20;10;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>180</y><w>140</w><h>70</h></coordinates><panel_attributes>bg=green
+LoggerFactory
+--
+
+--
++getLooger(int):Logger</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>60</y><w>190</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.
+implementa</panel_attributes><additional_attributes>10;10;30;10;170;70</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>220</y><w>260</w><h>40</h></coordinates><panel_attributes>lt=&lt;..
+usa</panel_attributes><additional_attributes>240;20;10;20</additional_attributes></element></diagram>
